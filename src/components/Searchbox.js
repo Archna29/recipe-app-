@@ -58,6 +58,7 @@ function Search() {
                       key={ind}
                         label={item.recipe.label}
                         calories={item.recipe.calories}
+        dietLabels={item.recipe.dietLabels}
                 image={item.recipe.image}
                 mainrecipe={item.recipe.url}
                 ingrediant={ 
