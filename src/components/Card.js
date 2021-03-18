@@ -2,7 +2,8 @@
 import React ,{useState} from 'react';
 const Recipe=(props)=>{
   const[show,setShow]=useState(false);
-  const showingrediant=()=>setShow(!show);
+  const showingrediant=()=>{event.preventDefault();
+setShow(!show);}
 return(
 <>
 <div className="col">
