@@ -2,7 +2,7 @@
 import React ,{useState} from 'react';
 const Recipe=(props)=>{
   const[show,setShow]=useState(false);
-  const showingrediant=()=>{event.preventDefault();
+  const showingrediant=(event)=>{event.preventDefault();
 setShow(!show);}
 return(
 <>
